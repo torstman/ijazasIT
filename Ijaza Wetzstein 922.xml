@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online-local-facsimiles/xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ijāza 922 near the Qaṣr al-Bulāq
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>ijāza by Ibn Ṭūlūn</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <msDesc xml:id="MS3" xml:lang="ar">
+                  <msIdentifier>
+                     <settlement>Berlin</settlement>
+                     <repository>Staatsbibliothek zu Berlin</repository>
+                     <idno>MS Wetzstein 134</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <!-- Parts: -->
+                     <msItem n="3" xml:id="a3">
+                        <p>ijāza 922 near the Qaṣr al-Bulāq</p>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <ref target="#a3"><date calendar="Gregorian" when="1517">922 AH</date></ref>
+                        
+                     </origin>
+                  </history>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div>
+            <pb n="fol. 30a"/>
+            <head>ijāza</head>
+            <p>
+               الحمد لله
+               سمع جميع جز {جزء} فضايل <placeName>الشام</placeName> و <placeName>دمشق</placeName> و ذكر ما فيهما من الاثارات و <placeName>البقاع الشريفة</placeName> تاليف
+               <persName>ابي الحسن علي بن محمد بن شجاع الربعي(؟) المالكي</persName> رحمه الله تعالى على <persName>الشيخ الامام العالم المحدث المورخ المتقن
+                  العلامة محيي الدين ابي المفاخر عبد القادر بن محمد بن عمر بن محمد النعيمي الدمشقي الحصري/الحصوي(؟) الشافعي</persName> ادام
+               الله تعالى بهجة و حرس للايام/للامام/للانام(؟) مهجة اخبرنا به <persName>الشيخ الامام الرحلة ابو الفهم عبد الرحمن بن ابشيخ غرس
+                  الدين ابي الصفا خليل الاذرعي القابوني</persName> سماعا عليه بقراة الاخ <persName>العلامة ابي الفضل بن الامام الشافعي</persName> 
+               انا <persName>المسند الكبير ابو المعالي عبد الله بن عمر الحلاوي</persName> بقراة والدي عليه و انا اسمع انا <persName>ابو عبد الله محمد بن محمد الفارمي</persName>(؟)
+               سماعا عليه يسنده اوله بقراة الاخ في الله تعالى سيدنا <persName>الشيخ الامام المحدث الرحال/الرجال(؟) المفيد محب
+                  الدين محمد المدعو جار الله بن شيخنا الحافظ عز الدين عبد العزيز بن عمر بن محمد بن فهد الهاشمي المكي</persName> كتب الله
+               سلامة و جمع الشمل(؟) له باهله الجماعة الفضلا <persName>الامام الاصيل المفيد العلامة اقضى القضاة كريم الدين 
+                  عبد الكريم بن البرهاني ابراهيم بن احمد بن الزيني رمضان بن الاكرم</persName> و ولده <persName>سيدي شمس الدين محمد</persName> و شقيقه
+               <persName>عبد الكريم الاخ في الله شمس الدين ابو الفضل محمد</persName> و ولده <persName>ابو البقا محمد</persName> و ابن عمهم <persName>الامام الاصيل زين
+                  الدين عبد الدحمن بن علا الدن علي بن احمد بن الاكرم</persName> و ابنته <persName>زينب</persName> في الثالثة و قريبهم <persName>الزيني عبد
+                     الباسط بن الناجي محمد بن الديوان</persName> و <persName>الشيخ الفاضل زين الدين عبد الرحمن بن الجمالي يوسف بن حسن
+                        التوقاتي</persName> الحنفيون و <persName>الشيخ الامام المفيد تقي الدين ابو بكر بن محب الدين محمد بن ابي بكر الترابي الشهير 
+                           بابن سهلا</persName> و <persName>الشيخ زين الدين عمر بن محمد بن ابراهيم الحبرامي/الحبراصي(؟)</persName> و <persName>محيي الدين محمد بن حسن بن احمد النيمي(؟)</persName> و ولدا
+               المسمع سيدي <persName>محيي الدين ابو زكريا يحيى</persName> و اخوه <persName>علا الدين ابو الخلف علي</persName> و <persName>الشيخ سيف الدين ابو بكر بن
+                  الزيني رجب بن محمد البيروتي الكتبي الشهير بابن سحارة</persName> و <persName>الحاج علا الدين علي بن محمد بن احمد التاجر بدمشق
+                     الشهير بابن صغتلمش(؟)</persName> و هما شيخان الشافعيون و <persName>الشيخ الفاضل المفيد شمس الدين محمد بن حسن بن محمد
+                        القابوني الباقاني</persName> و ابن عمه <persName>محمد بن ابراهيم بن يوسف البقاني الحامدي القواس</persName> و <persName>البرهاني ابراهيم بن عبد
+                           الرحمن بن عبد الله الصالحي الشهير بالن الصفي/الصيفي(؟)</persName> و <persName>تاج الدين محمد بن الزيني يحيى(؟) بن الزيني عبد الغني الزعفراني</persName>
+               الحنبليون و <persName>البدري حسن بن قاسم بن حسن العنابي الشهير بابن فريرات</persName> و ولده <persName>احمد</persName> في ٣ و ابن اخيه <persName>الزيني
+                  عمر بن شمس الدين محمد بن قاسم العنابي</persName> و <persName>احمد بن عبد القادر بن الشيخ الصالح خليل القادري الشهير بابن 
+                     الجمال</persName> بالمهملة و ولده <persName>المحيوي عبد القادر و الجلالي محمد العمادي اسماعيل بن محمد بن لحلا(؟) العثماني</persName> و <persName>يوسف
+                        بن سليمان بن عمر الحموي</persName> و <persName>الشهاب احمر بن شمس الدين محمد بن علي الحوراني ثم الصالحي</persName> و <persName>هبة الله محمد بن
+                           الشيخ شمس الدين البقاني</persName> المتقدم ذكر والده و <persName>الشيخ الصالح محمد بن حسن بن محمد العجلوني</persName> الامام الثاني
+               ب<placeName>الجامع الاموي بدمشق</placeName> و <persName>الشيخ عمر بن الشيخ موسى بن يوسف النابلسي</persName> و <persName>علي بن الحاج محمد بن رمضان الجوبراني</persName>
+               و <persName>ابن عمه احمد بن عبد القادر بن رمضان الجوبراني</persName> و <persName>سيدي محمد بن محمد بن موسى التاجر الشهير بالحجج/الحجيج(؟)</persName>
+            </p>
+            <pb n="fol. 30b"/>
+            <p>
+               و شقيقه <persName>الشرفي موسى</persName> و <persName>الحاج محمر بن عمر بن عمر العباسي المصري</persName> و ولده <persName>محمد</persName> و <persName>الحاج علي بن سليمان بن احمد بن سليمان
+                  المقدسي العينتاوي/العنبتاوي(؟)</persName> و سيدي الاوحد الاصيل امام <placeName>مقام سيدنا ابراهيم الخليل عليه افضل الصلوة و السلام بمكة المشرفة</placeName> 
+               <persName>جمال الدين محمد بن الامام ابي السعادات محمد بن قاضي القضاة محب الدين محمد الطبري المكي</persName> و الرييس بالحضرة الشريفة 
+               النبوية على ساكنها افضل الصلوة و اتم التسليم <persName>جمال الدين محمد بن احمد بن علي المدني الشهير بالحياط</persName>  و <persName>الجمالي محمد بن يحيى بن
+                  محمد الطايفي التقفي(؟) الشهير بالتغز(؟)</persName> كسلفه و <persName>الزيني عمر بن عبد الملك بن احمد الدمشقي الشهير بابن ابي عصرون</persName> و بعقنه(؟)
+               الولد <persName>محمد بن الشيخ سليمان بن محمد الحموي</persName> اخو <persName>يوسف</persName> المتقدم و صح ذلك و تبت يوم السبت خامس عشر ربيع الثاني من شهور
+               سنة اثنين و عشرين و تسعماية ب<placeName>البستان الشهير بابن العليعي قديما و بابن الجندي حديثا بالميطور من قصر اللباد/الباك(؟)</placeName>
+               من <placeName>ضواحي دمشق المحروسة</placeName> و اجز المسمع الحل/اكل(؟) منا(؟) ان نرويه عنه و جميع ما يجوز له و عنه رواية متلقطا(؟) بذلك بسواله
+               القاري له في ذلك و كتبه <persName>محمد بن طولون الحنفي</persName> لطف الله به الحمد الله وةده و صلى الله هلى سيدنا محمد و اله و صحبة و سلم
+            </p>
+         </div>
+         <div>
+            <head>Annotations in different hand</head>
+            <p>
+               <!-- ownership remark -->
+               نظر فيه و تفاهل/تفاصب/تفاضل(؟) معانيه الفقير <persName>حامد
+                  ابن السيد اسماعيل التقي</persName> غفر الله له
+               و لوالديه و لكان(؟) من دعا له بالمغفره
+               و لكل المسلمين امين في غرة صحرم
+               سنة ١٢١٤
+            </p>
+         </div>
+         <div>
+            <head>Price information?</head>
+            <p>
+               <!-- Price information? -->
+               ثمنة صايغ(؟) ٣٢
+            </p>  
+         </div>
+         <div>
+            <head>library stamp</head>
+            <p>
+               <!-- library stamp -->
+               عبد
+               حامد ابن
+               التقي
+            </p>
+         </div>
+         
+      </body>
+  </text>
+</TEI>

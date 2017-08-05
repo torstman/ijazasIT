@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online-local-facsimiles/xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ijāza for Akmal al-Dīn Ibn Mufliḥ
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <msDesc xml:id="MS2" xml:lang="ar">
+                  <msIdentifier>
+                     <settlement>Istanbul</settlement>
+                     <repository>Süleymaniyye U Kütüphanesi</repository>
+                     <idno>MS Laleli 3747</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <!-- Parts: -->
+                     <msItem n="1" xml:id="a1">
+                        <p>ijāza for Akmal al-Dīn Ibn Mufliḥ</p>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <ref target="#a1"><date calendar="Gregorian" when="1546">953</date></ref>
+                        
+                     </origin>
+                  </history>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <pb n="192a"/>
+            <head>Title in Ibn Mufliḥ’s hand</head>
+            <p><!-- Title in Ibn Mufliḥ’s hand -->
+               اجازة كاتبه اكمل 
+               من الامام محمد بن طولون 
+               رحمه الله نعم(؟)
+               لو
+            </p>
+         </div>
+         <div>
+            <head>Annotation in Ibn Mufliḥ’s hand</head>
+            <p><!-- Annotation in Ibn Mufliḥ’s hand -->
+               تو(؟) و ال رحمه/حبة الله تعالى(؟)و بالدعر/ثالث عشر(؟)
+               شهر جمادى الاولى(؟) سنة ٩٥٣ و رفت(؟)
+               بسفح قاسيون مجد(؟) كهف هبل</p>
+         </div>
+         <div>
+            <pb n="192b"/>
+            <head>ijāza</head>
+            <p>
+               <lb/> بسم الله الرحمن الرحيم<lb/> و هو حسبي الحمد لله الذي جعل<persName> محمدا اكمل
+                  الدين</persName> و يسوله اليسن لحفظ كتابه المبين و البسه به تاة<lb/>  الجمال و
+               جعله من احبابه المتفقهاين و حرسه ببركته من الشيطان فهو في حرز الاماني و شرح<lb/> صدره
+               و نفر(؟) وجهه فاينها/فاينما(؟) ولي فله وجه التهاني و الصلوة و السلام على
+                  <persName>سيدنا محمد النبي<lb/> المصطفى</persName> و على اله و اصحابه اهل الوفا و
+               بعد فقد عرض علي الولد النجيب الزكي<lb/>  الذكي اللبيب جمال اقرانه و فخر ابنا زمانه
+               انبل النجبا و انةب النبلا اوحد الدالبين <lb/><persName>ابو الفضل محمد اكمل
+                  الدين</persName> ابن سيدنا الامام احد اصلاء <placeName>دمشق الشام</placeName>
+               المتقس/المتقن(؟) المفيد<lb/><lb/> العقد الفريد صدر المدرسين مولانا <persName>القاضي
+                  برهان الدين ابن ابراهيم</persName> بن شيخنا العلامة المحرر(؟) الفهامة مليحا(؟)
+               العقاة قاضي القضاة <persName>نجم الدين ابي حفص عمر</persName> بن العلامة
+                  <persName>قاضي<lb/> القضاة برهان الدين ابي اسحق ابراهيم</persName> بن
+                  <persName>الشيخ الامام اكمل الدين محمد</persName> بن شيخ المسلمين<lb/>
+               <persName>الامام شرف الدين ابي محمد عبد الله</persName> بن الشيخ الامام
+                  العلامة<persName> اقضى القضا ابي عبد الله محمد بن<lb/> مفلح</persName> بن
+                  <persName>محمد بن مفرة الراميني</persName>(؟) المقدسي الدمشقي الصالحي الحنبلي
+               اقرالله به عين والده<lb/> و جمع له بين طريف(؟) العلم و تالده(؟) فالاصل زاك(؟) و
+               الحلال حميد هو الذهن صاف و اللسان فصيح<lb/> مواضع متعددة و اماكن متبددة/متبدرة(؟) من
+                  <bibl>مختصر الشيخ الامام <persName>ابي القسم عمر بن الحسين
+                  الخرقي</persName></bibl><lb/> تغمده الله برحمته و اسكنه بحبوبه جنته و اخبرنا به عن
+               عدة من الاشياح/الاشياخ(؟) منهم جده العلامة<lb/>
+               <persName>قاضي القضاة نجم الدين عمر الحنبلي</persName> مشافهة انا والدي
+                  <persName>قاضي القضاة برهان الدين ابراهيم الخنبلي</persName><lb/> عن جده
+                  الامام<persName> شرف الدين عبد الله بن مفلح الخنبلي</persName> عن <persName>التقي
+                  عبد الله بن محمد الحنبلي</persName> عن <persName>شمس<lb/> الدين محمد بن ابي عمد
+                  الحنبلي</persName> ح و قرات بعضه و اجازني سايره على <persName>ابي عمر يوسف بن
+                  البدر<lb/> الحنبلي</persName> انا جدي <persName>ابو العباس احمد بن الزين
+                  الحنبلي</persName> انا <persName>الصلاح محمد بن ابي عمر الحنبلي</persName> انا
+                  <persName>الفخر<lb/> علي بن البخاري الحنبلي</persName> قال هو و<persName> شمس
+                  الدين</persName> انا <persName>الشيخ موفق الدين عبد الله بن احمد بن
+                  قدامة</persName><lb/> و اخوه <persName>الشيخ ابو عمر محمد الحنبلي</persName>ان
+               قالا انا <persName>ابو الحسين المبارك بن علي السلمي</persName> انا <persName>ابو الفر
+                  احمد بن<lb/> عبيد الله بن كادش</persName> انا <persName>ابو علي الحسن بن غالب
+                  التيمي</persName> انا <persName>ابو الحسن محمد بن احمد بن شمعون</persName> انا
+               مولفه به فذكره  </p>
+            <pb n="193a"/>
+            <p> و هذا الاسناد مسلسل بالحنابلة ظاهرا و بالتامل نطهير/يطهر(؟) انه مسلسل بالصوالحة و
+               المقادسة و من<lb/>
+               <bibl>القصيدة اللامية</bibl> المسماة <bibl>بحرز الاماني و وجه التهاني نظم</bibl>
+               <persName>ولي الله ابي القسم احمد بن خلف بن فيوه(؟)<lb/> الشاطبي الضرير</persName>
+               تغمده الله بالرضوان و اسكنه فسيح الجنان و اخبرته بها عن جماعة من الشيوخ<lb/>  منهم
+                  <persName>ابو عبد الله محمد بن محمد بن ابي الحسن</persName> قراة و مشافهة انا
+                  <persName>ابو الخير محمد بن محمد الصالحي ثم الشيرازي</persName><lb/> انا
+                  <persName>التقي عبد الرحمن بن احمد البغدادي</persName> انا <persName>ابو عبد الله
+                  محمد بن احمد بن عبد الخالق</persName> انا <persName>ابو الحسن<lb/> علي بن شجاع
+                  العباسي</persName> صهر الشاطبي انا ناظمها فذكرها و هذا الاسناد مسلسل بمشايخ<lb/>
+               الاقرا و بالشافعية و بالمصريين عرضا حسنا محررا متقفا يرقي به ان شا الله<lb/>  درج
+               السعارة/السعازة/السعادة(؟) و يجوز به الحسين و زيارة دل ذلك على حفظه لجميع الكتابين و
+               انه<lb/> ان شا الله سيحصل على خير السعادتين و اجزت له ان يروي ذلك عني و جميع ما<lb/>
+               يجوز لي و عني روايته من حديث ما تور/ثور.نور(؟) و منطوم و منثور و كان العرض المذكور<lb/>
+               <date>تاسع شهر شوال سنة احد و اربعين و تسعماية</date> ب<placeName>الجامع
+                  الاموي</placeName>
+               <placeName>داخل دمشق المحروسة</placeName><lb/> قال ذلك و كتبه <persName>محمد بن علي
+                  بن طولون الصالحي الحنفي</persName> لطف الله حامدا فمصليا فمسلما </p>
+         </div>
+         <div>
+            <head>Addition by Ibn Ṭūlūn</head>
+            <!-- Addition by Ibn Ṭūlūn -->
+            <p> الحمد لله<lb/> تم/نم(؟) حفر الي و عرض على صاحب هذه الاجازة الولد اكمل الدين جعله
+               الله من  العلما العاملين <bibl>مقدمة الساغوجي في علم المنطق</bibl> في <date>خامس
+                  عشرين ربيع الاخر<lb/> سنة ثلث و اقبعين و تسعماية</date>
+               <placeName>بالجامع الاموي</placeName> داخل <placeName>دمشق المحروسة</placeName> و كتبه<lb/>
+               <persName>محمد بن طولون</persName>
+            </p>
+               
+         </div>
+      </body>
+  </text>
+</TEI>
