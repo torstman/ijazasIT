@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online-local-facsimiles/xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ijāza 06.03.942
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <msDesc xml:id="MS9" xml:lang="ar">
+                  <msIdentifier>
+                     <settlement>الاسكندرية</settlement>
+                     <repository>البلدية الاسكندرية</repository>
+                     <idno>MS Alex. Fun. 183</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <!-- Parts: -->
+                     <msItem n="9" xml:id="a9">
+                        <p>ijāza 06.03.942</p>
+                     </msItem>
+                  </msContents>
+                  <history>
+                     <origin>
+                        <ref target="#a9"><date calendar="Gregorian" when="1535">942</date></ref>
+                        
+                     </origin>
+                  </history>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body xml:lang="ar">
+         <div xml:lang="ar">
+            <head>ijāza</head>
+            <pb n="fol. 104a"/>
+            <p>
+               الحمد لله<lb/>
+               سمع من لفظي تحفة الاحباب هذه الولد محمد بن عبد القادر بن دميلكو الحنفي و الولد محمد <lb/>
+               ابن الشيخ احمد بن محمد الكردي والده الشافعي انشاهما الله نشوا صالحا في يوم الجمعة سادس <lb/>
+               ربيع الول سنة اثنين و اربعين و تسعمائة اعلا مصطبة السلطان بوطاة برزة و ارض <lb/>
+               القابون سفح قاسيون و اخوات لهما روايته بشرطه و كتبه جامع محمد بن طولون الصالحي <lb/>
+               و في هذا اليوم سماعا علي بقراة اولهما بالمقام اعلا قرية برزة مؤلفي المسمي  بمنح الجليل فيما <lb/>
+               ورد في مقام الخليل عليه السلام و فيه سمعا من لطفي في الجنينة خارج المقام المذكور و وقفه(؟) <lb/>
+               مؤلفي شرح الصدور فيما روي في الفخ و العصفور و اجزتهما روايتهما ايضا و حضر ذلك <lb/>
+               جميعه الشيخ الصالح محمد بن علي بن ابي الخيرات محمد المصري المولد القرشي المنشا الدمسقي <lb/>
+               الشافعي و اخبر انه سمع على العلامة كمال الدين بن ابي شريف المقدسي و لم يعلم له منه اجازة. <pb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
