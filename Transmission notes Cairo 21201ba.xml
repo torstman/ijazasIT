@@ -23,13 +23,25 @@
                         </msIdentifier>
                         <msContents>
                             <!-- Parts: -->
+                            <msItem n="1" xml:id="a1">
+                                <p>Risāla fī tafsīr qawlihī taʿālā: wa-adhkar fī al-kitāb Mūsā</p>
+                            </msItem>
+                            <msItem n="2" xml:id="a2">
+                                <p>Risāla fī tafsīr qawlihī taʿālā: "Inna Ibrāhīm kāna Umma"</p>
+                            </msItem>
+                           
                             <msItem n="3" xml:id="a3">
-                                <p>Transmission note</p>
+                                <p>al-Tazmīk li-akhbār al-dīk</p>
+                                <p>alternative title: Risāla fī khaṣāʾiṣ al-dīk</p>
+                                <p>following the text: Transmission note</p>
+                            </msItem>
+                            <msItem n="4" xml:id="a4">
+                                <p>Risāla fī mawḍiʿ qabr Mūsā ʿalayhi salām</p>
                             </msItem>
                         </msContents>
                         <history>
                             <origin>
-                                
+                                <p>compiled from two manuscripts by <persName>ʿAbd al-Salām al-Ḥanbalī</persName></p>
                             </origin>
                         </history>
                     </msDesc>
