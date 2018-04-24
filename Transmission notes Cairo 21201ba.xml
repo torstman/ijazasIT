@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online-local-facsimiles/xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>transmission note Khaṣāʾiṣ al-Dīk
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc xml:id="MS10" xml:lang="ar">
+                        <msIdentifier>
+                            <settlement>Cairo</settlement>
+                            <repository>Dār al-Kutub</repository>
+                            <idno>MS Majāmīʿ 21201bāʾ</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <!-- Parts: -->
+                            <msItem n="3" xml:id="a3">
+                                <p>Transmission note</p>
+                            </msItem>
+                        </msContents>
+                        <history>
+                            <origin>
+                                
+                            </origin>
+                        </history>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="ar">
+        <body xml:lang="ar">
+            <div xml:lang="ar">
+                <head>transmission notes</head>
+                <pb n="fol. 17a"/>
+                <div>
+                    <head>note 1</head>
+                <p>
+                    سمعه على الشيخ الامام تقي الدين ابي محمد اسمعيل بن ابراهيم بن ابي اليسر التنوخي باجازته من ابي سعيد الخليل بن ابي الرجا الواراني(؟)
+                    بحق اجازته و سماعه لما بعد الاجازة كما هو مبين في هامش هذه النسخة من ابي علي الحسن بن احمد الحداد انا ابو نعيم به نجم(؟) الدين اسمعيل
+                    ابن ابراهيم بن سالم الخباز و ولده محمد حضر يوم الجمعة ١٤ جمادى الاول(!) سنة ٤٧١ بجامع دمشق لخصه محمد بن طولون الحنفي لطف الله به    
+                </p>
+            </div>
+                <div>
+                    <head>note 2</head>
+                    <p> و قرأة الحاقظ يوسف بن الزكي المزي على الزين ابي العباس احمد بن ابي الخير
+                        سلامة بن الحداد باجازته من الوراني و على الامام <lb/>مجد الدين محمد بن خلد
+                        (خالد؟) بن حمدون الحموي و ابنه ابي العباس احمد و كمال الدين ابي الفضل اسحق
+                        بن ابي بكر بن النحاس بسماعهم من الحافظ <lb/>ابي الحجاج(الحجاح؟( يوسف بن خليل
+                        الدمشقي بسماعه من الوراني بسنده بتواريح مختلفة لخصه ايضا محمد بن طولون
+                        الحنفي عفا الله عنه </p>
+                </div>
+            </div>
+           
+        </body>
+    </text>
+</TEI>
